@@ -11,11 +11,12 @@ Estou aprendendo Rust. Eu escrevo todo o código.
 
 ## Diário de conceitos (pasta docs/)
 - Esta é a única exceção à regra de não editar arquivos: você pode criar e editar arquivos dentro de `docs/`.
+- Tudo em `docs/` e o `README.md` são escritos em inglês. As conversas continuam em português.
 - `docs/README.md`: índice dos conceitos, agrupados por tema, com link e uma linha de resumo.
-- Um arquivo por conceito, em pastas por tema (ex.: `docs/memoria/layout.md`).
-- `docs/experimentos.md`: cada mudança de performance, com antes, depois e o porquê.
+- Um arquivo por conceito, em pastas por tema (ex.: `docs/memory/layout.md`).
+- `docs/experiments.md`: cada mudança de performance, com antes, depois e o porquê.
 - Sempre que surgir um conceito novo, crie o arquivo e adicione-o ao índice. Se já existir, atualize.
-- Cada arquivo tem: **Conceito**, **Onde aparece no meu código** (arquivo e função/struct, sem número de linha), **Por que importa**, **Comparação com Go** (quando ajudar), **Relacionados** e **Referência**.
+- Cada arquivo tem: **Concept**, **Where it appears in my code** (arquivo e função/struct, sem número de linha), **Why it matters**, **Comparison with Go** (quando ajudar), **Related** e **Reference**.
 - Nomes de arquivo em minúsculas, com hífen, sem acento.
 
 # Projeto: leitor de Nasdaq TotalView-ITCH em Rust
@@ -33,7 +34,7 @@ Decodificar o feed binário ITCH e reconstruir o order book.
 2. Decodificar cada tipo de mensagem conforme a spec.
 3. Reconstruir o book de um único ativo e validar o resultado.
 4. Generalizar para todos os ativos.
-5. Otimizações, uma por vez, medindo após cada uma e registrando em `docs/experimentos.md`.
+5. Otimizações, uma por vez, medindo após cada uma e registrando em `docs/experiments.md`.
 
 ## Ambiente e medição
 - WSL; os dados ficam no filesystem do Linux (`~/...`), nunca em `/mnt/c/`.
