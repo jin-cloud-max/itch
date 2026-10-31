@@ -8,6 +8,8 @@ I use [Claude Code](https://claude.com/claude-code) as a study assistant on this
 
 [CLAUDE.md](CLAUDE.md) sets these rules, which is why it tells Claude not to change the code. Claude can edit the concept notes in `docs/`, and it also helped write this README.
 
+If you plan to use Claude on this project to learn, I suggest keeping these rules as they are. The learning comes from working through the problems yourself, and you lose that if Claude writes the code for you.
+
 ## Data
 
 Trading day files go in `data/`, which is not tracked by git. Each compressed file is between 3.5 and 5.6 GB, and much larger once decompressed.
