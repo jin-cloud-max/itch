@@ -18,7 +18,7 @@ Each message in the file is preceded by a 2-byte big-endian length. This framing
 
 Questions this step answers:
 
-- [x] Which message types appear in this 2019 file? The specification is from 2024, so check `N` and `O` in particular. **Answer:** `A`, `C`, `D`, `E`, `F`, `H`, `I`, `J`, `K`, `L`, `P`, `Q`, `R`, `S`, `U`, `V`, `X` and `Y`. `N` and `O` do not appear, and neither do `W` and `h`.
+- [x] Which message types appear in this 2019 file? The specification is from 2024, so check `N` and `O` in particular. **Answer:** `A`, `C`, `D`, `E`, `F`, `H`, `I`, `J`, `K`, `L`, `P`, `Q`, `R`, `S`, `U`, `V`, `X` and `Y`. `N` and `O` do not appear, and neither do `B`, `W` and `h`.
 - [x] What fraction of the add orders are `F` rather than `A`? **Answer:** about 1.25% (1,485,888 of 118,631,456). This is a share of orders, not of traded volume.
 - [x] Which message types are the most frequent? **Answer:** of 268,744,780 messages, `A` is 43.6%, `D` is 42.6% and `U` is 8.1%.
 
