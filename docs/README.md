@@ -7,6 +7,10 @@
 
 ## Concepts
 
+### ITCH
+
+- [Message formats](itch/message-formats.md): the fields, offsets and sizes of every message type.
+
 ### Order book
 
 - [Data modeling](book/data-modeling.md): the two views of a book, worked through nine events by hand.
@@ -25,6 +29,7 @@
 - [Buffer reuse](memory/buffer-reuse.md): why a buffer created once avoids allocating for every message.
 - [Direct-index counting](memory/direct-index-counting.md): how a small integer can be the position of its own counter.
 - [Fixed and growing memory](memory/fixed-vs-growing-memory.md): why memory per kept item needs more care than a single large buffer.
+- [Fixed-width fields](memory/fixed-width-fields.md): how reserving space for the largest value gives every field a known position.
 
 ### Numbers
 
